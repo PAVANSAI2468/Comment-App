@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.bg {
+  height: 100vh;
+  padding: 30px;
+}
+input {
+  margin-bottom: 5px;
+}
+button {
+  background-color: darkslateblue;
+  color: white;
+}
+.top-container {
+  display: flex;
+  justify-content: space-around;
+}
+.no-of-comments-container {
+  display: flex;
+}
+.no-of-comments {
+  margin-right: 10px;
+  background-color: darkblue;
+  color: white;
+  padding: 3px;
+}
