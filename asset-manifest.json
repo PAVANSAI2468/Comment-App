@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Comment-App/static/css/main.b1c1d471.chunk.css",
+    "main.js": "/Comment-App/static/js/main.114edbbc.chunk.js",
+    "main.js.map": "/Comment-App/static/js/main.114edbbc.chunk.js.map",
+    "runtime-main.js": "/Comment-App/static/js/runtime-main.6a2b26f7.js",
+    "runtime-main.js.map": "/Comment-App/static/js/runtime-main.6a2b26f7.js.map",
+    "static/js/2.f226bd71.chunk.js": "/Comment-App/static/js/2.f226bd71.chunk.js",
+    "static/js/2.f226bd71.chunk.js.map": "/Comment-App/static/js/2.f226bd71.chunk.js.map",
+    "index.html": "/Comment-App/index.html",
+    "static/css/main.b1c1d471.chunk.css.map": "/Comment-App/static/css/main.b1c1d471.chunk.css.map",
+    "static/js/2.f226bd71.chunk.js.LICENSE.txt": "/Comment-App/static/js/2.f226bd71.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a2b26f7.js",
+    "static/js/2.f226bd71.chunk.js",
+    "static/css/main.b1c1d471.chunk.css",
+    "static/js/main.114edbbc.chunk.js"
+  ]
+}
