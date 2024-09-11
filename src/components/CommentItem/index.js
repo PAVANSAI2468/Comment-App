@@ -2,10 +2,8 @@
 import './index.css'
 
 const CommentItem = props => {
-  const {commentDetails, toggleLike, deleteComment, profileColor} = props
-  const {id, name, comment, isLiked} = commentDetails
-
-  const profileColoring = profileColor
+  const {commentDetails, toggleLike, deleteComment} = props
+  const {id, name, comment, isLiked, colorProfileClassName} = commentDetails
 
   const onclickLikeButton = () => {
     toggleLike(id)
@@ -21,10 +19,11 @@ const CommentItem = props => {
   return (
     <li>
       <div className="comment-profile-container">
-        <div className="profile">
-          <p className={`${profileColoring}`}>{name[0]}</p>
+        <div className={`profile ${colorProfileClassName}`}>
+          <p>{name[0]}</p>
         </div>
         <div className="comment">
+          <p>{name}</p>
           <p>{comment}</p>
         </div>
       </div>

@@ -54,10 +54,18 @@ class Comments extends Component {
   submitComments = e => {
     e.preventDefault()
     const {name, comment} = this.state
+    const colorProfileClassName = `initial-container ${
+      initialContainerBackgroundClassNames[
+        Math.ceil(
+          Math.random() * initialContainerBackgroundClassNames.length - 1,
+        )
+      ]
+    }`
     const personComment = {
       id: uuidv4(),
       name,
       comment,
+      colorProfileClassName,
       isLiked: false,
     }
     this.setState(prev => ({
